@@ -10,7 +10,7 @@ using Microsoft.Azure.CognitiveServices.Vision.Face.Models;
 
 namespace face_verify_test
 {
-    class Program
+    class FaceVerification
     {
         const string SUBSCRIPTION_KEY = "KEY";
         const string ENDPOINT = "https://faceverificaiton.cognitiveservices.azure.com/";
