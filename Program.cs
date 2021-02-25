@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.CognitiveServices.Vision.Face;
 using Microsoft.Azure.CognitiveServices.Vision.Face.Models;
 
-namespace face_verify_test
+namespace FYPFaceVerification
 {
     class FaceVerification
     {
