@@ -27,7 +27,9 @@ namespace FYPFaceVerification
 
             VerifyResult verifyResult = verifyResult = client.Face.VerifyFaceToFaceAsync(fId1.Value, fId2.Value).Result;
 
-            Console.WriteLine($"Face confidence: {verifyResult.Confidence}.");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\nFace Confidence: {verifyResult.Confidence}.");
+            Console.ResetColor();
         }
 
         static void Main(string[] args)
